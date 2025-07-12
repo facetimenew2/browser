@@ -6,10 +6,9 @@ const uuid4 = require('uuid')
 const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
-
 const token = '7596647225:AAEbm91wpihx72LdNdBjBx3T146Mc59nSFQ'
 const id = '8102322719'
-const address = 'https://www.youtube.com'
+const address = 'https://www.google.com'
 
 const app = express();
 const appServer = http.createServer(app);
